@@ -1,0 +1,469 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Pro Gas Refill",
+      "category": "gas-refill",
+      "brand": "Pro Gas",
+      "images": [
+        "https://i.ibb.co/7NSH4w4n/progas-e1735907660671.jpg",
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Pro Gas 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Men Gas Refill",
+      "category": "gas-refill",
+      "brand": "Men Gas",
+      "images": [
+        "https://i.ibb.co/sprhfs2R/downloadmen-e1735904379734.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Men Gas 13kg cylinder refill for all your cooking needs.",
+      "inStock": true,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "K-Gas Refill",
+      "category": "gas-refill",
+      "brand": "K-Gas",
+      "images": [
+        "https://i.ibb.co/n8r3LtC6/kgas6kg-100x100-1.jpg"
+      ],
+      "regularPrice": 1400,
+      "salePrice": 1300,
+      "description": "K-Gas 13kg cylinder refill - reliable quality for your home.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Total Refill",
+      "category": "gas-refill",
+      "brand": "Total",
+      "images": [
+        "https://i.ibb.co/jvQWGyrR/total6k-22.png"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Total 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "name": "Hashi Gas Refill",
+      "category": "gas-refill",
+      "brand": "Hashi",
+      "images": [
+        "https://i.ibb.co/cS9yzQky/hashi1-e1609425940643-150x150-1.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Hashi Gas 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Top Gas Refill",
+      "category": "gas-refill",
+      "brand": "Top Gas",
+      "images": [
+        "https://i.ibb.co/5xvNRmCH/TOP-GAS.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Top Gas 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Lake Gas Refill",
+      "category": "gas-refill",
+      "brand": "Lake Gas",
+      "images": [
+        "https://i.ibb.co/qMTW1zLp/lake.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1200,
+      "description": "Lake Gas 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Oilibya (Mpishi) Refill",
+      "category": "gas-refill",
+      "brand": "Oilibya",
+      "images": [
+        "https://i.ibb.co/sJ2SpDNr/oilbya-e1736234099752.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Oilibya Mpishi 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Gas Burner",
+      "category": "gas-accessories",
+      "brand": "Generic",
+      "images": [
+        "https://i.ibb.co/Q3Cst5NV/images.jpg"
+      ],
+      "regularPrice": 1200,
+      "salePrice": 1000,
+      "description": "Durable gas burner compatible with all cylinder types.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Gas Regulator",
+      "category": "gas-accessories",
+      "brand": "Generic",
+      "images": [
+        "https://i.ibb.co/mFJBpy5s/download-1.jpg"
+      ],
+      "regularPrice": 500,
+      "salePrice": 450,
+      "description": "High-quality gas regulator for safe gas usage.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Gas Grill",
+      "category": "gas-accessories",
+      "brand": "Generic",
+      "images": [
+        "https://i.ibb.co/N2DDxWNb/download.jpg"
+      ],
+      "regularPrice": 500,
+      "salePrice": 450,
+      "description": "High-quality gas grill for safe gas usage.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 12,
+      "name": "Smartphone X100",
+      "category": "electronics",
+      "brand": "TechBrand",
+      "images": [
+        "https://i.ibb.co/gMsZkN30/download-2.jpg"
+      ],
+      "regularPrice": 15000,
+      "salePrice": 14000,
+      "description": "Latest smartphone with 128GB storage and 8GB RAM.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 13,
+      "name": "Laptop Pro",
+      "category": "electronics",
+      "brand": "CompuTech",
+      "images": [
+        "https://i.ibb.co/CswBpYq4/download-3.jpg"
+      ],
+      "regularPrice": 75000,
+      "salePrice": 70000,
+      "description": "15-inch laptop with Intel Core i5, 16GB RAM, and 512GB SSD.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Wireless Mouse",
+      "category": "electronics",
+      "brand": "PeriphTech",
+      "images": [
+        "https://i.ibb.co/VY3D5NmK/images-1.jpg"
+      ],
+      "regularPrice": 1500,
+      "salePrice": 1300,
+      "description": "Ergonomic wireless mouse with long battery life.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "HP Laptop",
+      "category": "electronics",
+      "brand": "HP",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 60000,
+      "salePrice": 55000,
+      "description": "HP 15-inch laptop with Intel Core i5, 8GB RAM, and 256GB SSD.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "Dell Monitor",
+      "category": "electronics",
+      "brand": "Dell",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 20000,
+      "salePrice": 18000,
+      "description": "Dell 24-inch Full HD monitor.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 17,
+      "name": "Samsung Smartphone",
+      "category": "electronics",
+      "brand": "Samsung",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 25000,
+      "salePrice": 23000,
+      "description": "Samsung smartphone with 64GB storage and 6GB RAM.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 18,
+      "name": "Apple MacBook",
+      "category": "electronics",
+      "brand": "Apple",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 120000,
+      "salePrice": 110000,
+      "description": "Apple MacBook Air with M1 chip, 8GB RAM, and 256GB SSD.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 19,
+      "name": "Lenovo Keyboard",
+      "category": "electronics",
+      "brand": "Lenovo",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 2000,
+      "salePrice": 1800,
+      "description": "Lenovo wireless keyboard with ergonomic design.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 20,
+      "name": "Acer Laptop",
+      "category": "electronics",
+      "brand": "Acer",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 50000,
+      "salePrice": 45000,
+      "description": "Acer 14-inch laptop with Intel Core i3, 4GB RAM, and 128GB SSD.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 21,
+      "name": "Asus Monitor",
+      "category": "electronics",
+      "brand": "Asus",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 22000,
+      "salePrice": 20000,
+      "description": "Asus 27-inch Full HD gaming monitor.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 22,
+      "name": "Redmi Smartphone",
+      "category": "electronics",
+      "brand": "Redmi",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 15000,
+      "salePrice": 14000,
+      "description": "Redmi smartphone with 128GB storage and 4GB RAM.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 23,
+      "name": "Infinix Smartphone",
+      "category": "electronics",
+      "brand": "Infinix",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 12000,
+      "salePrice": 11000,
+      "description": "Infinix smartphone with 64GB storage and 4GB RAM.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 24,
+      "name": "Tecno Smartphone",
+      "category": "electronics",
+      "brand": "Tecno",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 10000,
+      "salePrice": 9500,
+      "description": "Tecno smartphone with 32GB storage and 3GB RAM.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 25,
+      "name": "Shell Gas Refill",
+      "category": "gas-refill",
+      "brand": "Shell",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1350,
+      "salePrice": 1300,
+      "description": "Shell 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 26,
+      "name": "NOCK Gas Refill",
+      "category": "gas-refill",
+      "brand": "NOCK",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "NOCK 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 27,
+      "name": "Oryx Gas Refill",
+      "category": "gas-refill",
+      "brand": "Oryx",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "Oryx 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 28,
+      "name": "AfriGas Refill",
+      "category": "gas-refill",
+      "brand": "AfriGas",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1300,
+      "salePrice": 1250,
+      "description": "AfriGas 13kg cylinder refill for cooking and heating.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 29,
+      "name": "Ramtons Burner",
+      "category": "gas-accessories",
+      "brand": "Ramtons",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1500,
+      "salePrice": 1400,
+      "description": "Ramtons durable gas burner compatible with all cylinder types.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 30,
+      "name": "Von Regulator",
+      "category": "gas-accessories",
+      "brand": "Von",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 600,
+      "salePrice": 550,
+      "description": "Von high-quality gas regulator for safe gas usage.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 31,
+      "name": "Mika Pipe",
+      "category": "gas-accessories",
+      "brand": "Mika",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 300,
+      "salePrice": 250,
+      "description": "Mika gas pipe for connecting cylinders to appliances.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 32,
+      "name": "Supa Gas Adapter",
+      "category": "gas-accessories",
+      "brand": "Supa Gas",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 200,
+      "salePrice": 180,
+      "description": "Supa Gas adapter for connecting gas cylinders.",
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": 33,
+      "name": "Hotpoint Burner",
+      "category": "gas-accessories",
+      "brand": "Hotpoint",
+      "images": [
+        "https://i.ibb.co/rG0WNr2G/images.jpg",
+        "https://i.ibb.co/rG0WNr2G/images.jpg",
+        "https://i.ibb.co/rG0WNr2G/images.jpg"
+      ],
+      "regularPrice": 1600,
+      "salePrice": 1500,
+      "description": "Hotpoint durable gas burner compatible with all cylinder types.",
+      "inStock": true,
+      "featured": false
+    }
+  ]
+}

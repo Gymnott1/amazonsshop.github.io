@@ -1,0 +1,21 @@
+
+
+{
+    "categories": [
+      {
+        "id": "gas-refill",
+        "name": "Gas Cylinders",
+        "description": "Gas cylinder refills from various brands"
+      },
+      {
+        "id": "gas-accessories",
+        "name": "Gas Accessories",
+        "description": "Accessories for gas cylinders including burners, regulators, and more"
+      },
+      {
+        "id": "electronics",
+        "name": "Electronics",
+        "description": "Various electronics including phones, laptops, and accessories"
+      }
+    ]
+  }

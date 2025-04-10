@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Home from './components/pages/Home';
+import Cart from './components/pages/Cart';
+import OrderTracking from './components/pages/OrderTracking';
+import ContactUs from './components/pages/ContactUs';
+import { CartProvider } from './context/CartContext';
+import { OrderProvider } from './context/OrderContext';
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <CartProvider>
+        <OrderProvider>
+          <Layout onSearch={handleSearch}>
+            <Routes>
+              <Route path="/" element={<Home searchQuery={searchQuery} />} />
+              <Route path="/cart" element={<Cart />} />
+              <Route path="/order-tracking" element={<OrderTracking />} />
+              <Route path="/contact" element={<ContactUs />} />
+            </Routes>
+          </Layout>
+        </OrderProvider>
+      </CartProvider>
+    </Router>
   );
 }
 

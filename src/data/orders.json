@@ -1,0 +1,47 @@
+{
+    "orders": [
+      {
+        "id": "ORD12345",
+        "customerName": "John Doe",
+        "phone": "0712345678",
+        "address": "123 Mombasa Road, Nairobi",
+        "items": [
+          {
+            "productId": 1,
+            "name": "Pro Gas Refill",
+            "price": 1250,
+            "quantity": 1
+          }
+        ],
+        "total": 1250,
+        "paymentMethod": "Cash on delivery",
+        "status": "Delivered",
+        "orderDate": "2025-01-05T10:30:00",
+        "deliveryDate": "2025-01-05T14:45:00"
+      },
+      {
+        "id": "ORD12346",
+        "customerName": "Jane Smith",
+        "phone": "0723456789",
+        "address": "45 Ngong Road, Nairobi",
+        "items": [
+          {
+            "productId": 2,
+            "name": "Men Gas Refill",
+            "price": 1250,
+            "quantity": 1
+          },
+          {
+            "productId": 9,
+            "name": "Gas Burner",
+            "price": 1000,
+            "quantity": 1
+          }
+        ],
+        "total": 2250,
+        "paymentMethod": "Cash on delivery",
+        "status": "Out for Delivery",
+        "orderDate": "2025-01-08T09:15:00"
+      }
+    ]
+  }
