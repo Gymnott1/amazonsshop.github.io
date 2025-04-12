@@ -165,7 +165,7 @@ const Banner = () => {
       <div className="bg-gradient-to-r from-orange-900 to-orange-600 text-white py-2 overflow-hidden relative border-y border-orange-400 shadow-lg shadow-orange-500/50">
         <div className="whitespace-nowrap inline-block font-mono text-orange-300">
           {announcements.map((text, index) => (
-            <span key={index} className="mx-8">💠 {text}</span>
+            <span key={index} className="mx-8">🔥 {text}</span>
           ))}
         </div>
         <style jsx>{`
