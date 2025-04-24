@@ -42,7 +42,7 @@ const Header = ({ onSearch }) => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
 
-  // Logo URLs - light and dark versions
+ 
   const lightLogo = "https://i.ibb.co/b5TV3S5R/logo-1.png";
   const darkLogo = "https://i.ibb.co/HDqRRxjL/logo-white-1.png"; // Using the other logo as dark mode version
 
@@ -50,7 +50,7 @@ const Header = ({ onSearch }) => {
     <header className="bg-white dark:bg-gray-900 shadow-md sticky top-0 z-50 transition-all duration-500">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          {/* Logo that changes based on theme with smooth transition */}
+         
           <Link to="/" className="flex items-center">
             <div className="relative h-10 w-40 overflow-hidden">
               <img
@@ -74,7 +74,7 @@ const Header = ({ onSearch }) => {
             </div>
           </Link>
 
-          {/* Search Bar - Hide on mobile */}
+          
           <div className="hidden md:flex flex-grow max-w-md mx-4">
             <form onSubmit={handleSearch} className="w-full">
               <div className="relative">
@@ -95,13 +95,13 @@ const Header = ({ onSearch }) => {
             </form>
           </div>
 
-          {/* Desktop Navigation */}
+         
           <nav className="hidden md:flex items-center space-x-6">
             <Link to="/" className="text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 font-medium transition-colors duration-300">Home</Link>
             <Link to="/order-tracking" className="text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 font-medium transition-colors duration-300">Track Order</Link>
             <Link to="/contact" className="text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 font-medium transition-colors duration-300">Contact Us</Link>
             
-            {/* Dark Mode Toggle with animation */}
+           
             <button 
               onClick={toggleDarkMode} 
               className="p-2 rounded-full text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none transition-all duration-300 relative overflow-hidden"
@@ -123,9 +123,9 @@ const Header = ({ onSearch }) => {
             </Link>
           </nav>
 
-          {/* Mobile menu button */}
+        
           <div className="md:hidden flex items-center space-x-4">
-            {/* Dark Mode Toggle - Mobile with animation */}
+            
             <button 
               onClick={toggleDarkMode} 
               className="p-1 rounded-full text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 focus:outline-none transition-all duration-300 relative overflow-hidden"
@@ -158,7 +158,7 @@ const Header = ({ onSearch }) => {
           </div>
         </div>
 
-        {/* Mobile Search - Show when menu is open */}
+       
         {mobileMenuOpen && (
           <div className="mt-4">
             <form onSubmit={handleSearch} className="w-full">
@@ -181,10 +181,11 @@ const Header = ({ onSearch }) => {
           </div>
         )}
 
-        {/* Mobile Navigation Menu */}
+        
         {mobileMenuOpen && (
           <nav className="md:hidden mt-4 space-y-1 pb-3">
             <Link to="/" className="block text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 hover:bg-gray-50 dark:hover:bg-gray-800 font-medium py-2 px-3 rounded-md transition-all duration-300">Home</Link>
+            <Link to="/analytics" className="block text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 hover:bg-gray-50 dark:hover:bg-gray-800 font-medium py-2 px-3 rounded-md transition-all duration-300">Dashboard</Link>
             <Link to="/order-tracking" className="block text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 hover:bg-gray-50 dark:hover:bg-gray-800 font-medium py-2 px-3 rounded-md transition-all duration-300">Track Order</Link>
             <Link to="/contact" className="block text-gray-700 dark:text-gray-200 hover:text-orange-500 dark:hover:text-orange-400 hover:bg-gray-50 dark:hover:bg-gray-800 font-medium py-2 px-3 rounded-md transition-all duration-300">Contact Us</Link>
           </nav>

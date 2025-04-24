@@ -7,6 +7,7 @@ import OrderTracking from './components/pages/OrderTracking';
 import ContactUs from './components/pages/ContactUs';
 import { CartProvider } from './context/CartContext';
 import { OrderProvider } from './context/OrderContext';
+import AnalyticsDashboard from './AnalyticsDashboard';
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -25,6 +26,8 @@ function App() {
               <Route path="/cart" element={<Cart />} />
               <Route path="/order-tracking" element={<OrderTracking />} />
               <Route path="/contact" element={<ContactUs />} />
+              <Route path="/analytics" element={<AnalyticsDashboard />} />
+              
             </Routes>
           </Layout>
         </OrderProvider>
